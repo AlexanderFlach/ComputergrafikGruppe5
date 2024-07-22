@@ -1,0 +1,14 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://egpru16uvbme"]
+
+[ext_resource type="Shader" uid="uid://djdvvewfn86x2" path="res://Assets/GrassShader.tres" id="1_nbck6"]
+[ext_resource type="Texture2D" uid="uid://bawxvsraww3d7" path="res://Assets/WindNoiseTexture.tres" id="2_ea42k"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_nbck6")
+shader_parameter/player_pos = null
+shader_parameter/radius = 3.0
+shader_parameter/power = 1.5
+shader_parameter/BaseColor = Color(0, 0, 0, 1)
+shader_parameter/WindColor = Color(0, 0.462745, 0, 1)
+shader_parameter/WindNoise = ExtResource("2_ea42k")

@@ -1,0 +1,12 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://dnaqe2arsoopw"]
+
+[ext_resource type="Shader" uid="uid://ctigvdkmgnaj" path="res://Assets/PlantShader.tres" id="1_s7rap"]
+[ext_resource type="Texture2D" uid="uid://bawxvsraww3d7" path="res://Assets/WindNoiseTexture.tres" id="2_410q1"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_s7rap")
+shader_parameter/player_pos = null
+shader_parameter/radius = 3.0
+shader_parameter/power = 3.0
+shader_parameter/WindNoise = ExtResource("2_410q1")
